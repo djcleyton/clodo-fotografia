@@ -359,6 +359,11 @@ h1, h2, h3{
     .insta-grid{
         grid-template-columns: repeat(2, 1fr);
     }
+    .copyright{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media(min-width: 992px){
